@@ -1,12 +1,11 @@
 html,
 body {
-  margin: 0;
-  padding: 0;
   height: 100%;
 }
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -16,15 +15,13 @@ body {
   width: 1000px;
   height: 1000px;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: flex-start;
-  align-items: center;
   align-content: flex-start;
+  flex-wrap: wrap;
 }
 
-.container .grid-item {
-  width: 16px;
-  height: 16px;
+.grid-item {
+  /* width: 25%; */
+  /* height: 25%; */
   background-color: red;
   border: 2px blue solid;
 }
